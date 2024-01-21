@@ -9,3 +9,10 @@ const generateRandomRealNumbers = (length, min, max) =>
     .map(() => +(Math.random() * (max - min) + min).toFixed(1));
 
 export { generateRandomRealNumbers };
+
+const generateRandomNumbers = (length, min, max) =>
+  [...new Array(length)]
+    .fill()
+    .map(() => +(Math.random() * (max - min) + min).toFixed(0));
+
+export { generateRandomNumbers };
