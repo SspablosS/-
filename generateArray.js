@@ -23,7 +23,7 @@ const generate2DArray = (rows, columns) => {
   for (let i = 0; i < rows; i += 1) {
     const row = [];
     for (let j = 0; j < columns; j += 1) {
-      const randomNUmber = Math.floor(Math.random() * 10) + 1;
+      const randomNUmber = Math.floor(Math.random() * 30) + 1;
       row.push(randomNUmber);
     }
     result.push(row);
