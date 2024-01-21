@@ -1,7 +1,7 @@
 {
-  "name": "name",
-  "description": "description",
-  "authors": "author",
+  "name": "arrays",
+  "description": "tasks",
+  "authors": "sspabloss",
   "version": "1.0.0",
   "main": "pathToMain",
   "dependencies": {},
